@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EliteGram</title>
+    <!--icon scout cdn-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!--stylesheet link-->
+    <link rel="stylesheet" href="./styles/styles2.css">
+</head>
+<body id="mainpage">
+
+<!------============================= NAV START ================================================-->    
+    <nav>
+        <div class="container">
+            <h2 class="logo">EliteGram</h2>
+            <div class="search-bar">
+                <i class="uil uil-search"></i>
+                <input type="search" name="" id="" placeholder="Search for anything of your interest">
+            </div>
+            <div class="create">
+                <label for="create-post" class="btn-primary btn">Create</label>
+                <div class="profile-photo">
+                    <img src="./images/user.jpg" alt="" id="profile-photo1">
+                </div>
+            </div>
+        </div>
+    </nav>
+<!------============================= NAV END ================================================-->    
+    <main>
+        <div class="container">
+            <!-- ==================== LEFT SIDE =========================================== -->
+            <div class="left">
+                <a href="" class="profile">
+                    <div class="profile-photo">
+                        <img src="./images/user.jpg" alt="" id="profile-photo2">
+                    </div>
+                    <div class="handle">
+                        <h4 id="username-input">Katwebaze Emmanuel</h4>
+                        <p class="text-muted"><span id="email-input">emma</span></p>                    
+                    </div>
+                </a>
+            <!--=====================================SIDE-BAR=============================================-->
+                <div class="sidebar">
+                    <a class="menu-item active">
+                        <span><i class="uil uil-home"></i></span><h3>Home</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-bell"></i></span><h3>Notifications</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-envelope-alt"></i></span><h3>Messages</h3>
+                    </a>
+                    <a class="menu-item" id="profile">
+                        <span><i class="uil uil-book-open"></i></span><h3>Profile Update</h3>
+                    </a>
+                    <a class="menu-item" id="theme">
+                        <span><i class="uil uil-palette"></i></span><h3>Theme</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-setting"></i></span><h3>Settings</h3>
+                    </a>
+                </div>
+                <label for="create-post" class="btn btn-primary">Create Post</label>
+            <!--======================= END OF SIDEBAR ======================================-->                 
+            </div>
+                        
+            <!--======================= MIDDLE ======================================--> 
+            <div class="middle">
+                <div class="stories">
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/emma.jpg" alt="">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/saul.jpeg" alt="">
+                        </div>
+                        <p class="name">Mwegyesa Saul</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/zaharah.jpg" alt="">
+                        </div>
+                        <p class="name">Nammiiro Zaharah</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/prossy.jpeg" alt="">
+                        </div>
+                        <p class="name">Nabbona Prossie</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/sava.jpeg" alt="">
+                        </div>
+                        <p class="name">Sava Emmanuel</p>
+                    </div>
+                </div>
+            <!--============================== END OF STORIES =========================-->
+
+                <form class="create-post">
+                    <div class="profile-photo">
+                        <img src="./images/profile-1.jpg" alt="" id="profile-photo3">
+                    </div>
+                    <input type="text" placeholder="What's on your mind?" id="create-post">
+                    <input type="submit" class="btn btn-primary">
+                </form>
+                <!-- =========================== FEEDS ======================================================-->
+                    <div class="feeds">
+                        <!--================================== FEED 1 ===========================================-->
+                        <div class="feed">
+                            <div class="head">
+                                <div class="user">
+                                    <div class="profile-photo">
+                                        <img src="./images/zaharah.jpg" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h3>Nammiiro Zahara</h3>
+                                        <small>Kampala, 20 MINUTES ago</small>
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <span class="edit"><i class="uil uil-ellipsis-h"></i></span>
+
+                            <div class="photo">
+                                <img src="./images/zaharah1.jpeg" alt="">
+                            </div>
+                            <div class="action-buttons">
+                                <div class="interaction-buttons">
+                                    <span><i class="uil uil-heart"></i></span>
+                                    <span><i class="uil uil-comment-dots"></i></span>
+                                    <span><i class="uil uil-share-alt"></i></span>
+                                </div>
+                                <div class="bookmark">
+                                    <span><i class="uil uil-bookmark"></i></span>
+                                </div>
+                            </div>
+                            <div class="liked-by">
+                                <span><img src="./images/profile-10.jpg" alt=""></span>
+                                <span><img src="./images/profile-11.jpg" alt=""></span>
+                                <span><img src="./images/profile-12.jpg" alt=""></span>
+                                <p>Liked by<b>Saul Mwegyesa</b></p>
+                            </div>
+                            <div class="caption">
+                                <p><b>Zaharah</b><span class="harsh-tag"> #chilling</span></p>
+                            </div>
+                        </div>
+<!--================================= END OF FEED 1 ====================================================================================--> 
+<!--================================== FEED 2 ===========================================-->
+                        <div class="feed">
+                            <div class="head">
+                                <div class="user">
+                                    <div class="profile-photo">
+                                        <img src="./images/profile-13.jpg" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h3>Nabbona Prossy</h3>
+                                        <small>Kampala, 20 MINUTES ago</small>
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <span class="edit"><i class="uil uil-ellipsis-h"></i></span>
+
+                            <div class="photo">
+                                <img src="./images/prossy.jpeg" alt="">
+                            </div>
+                            <div class="action-buttons">
+                                <div class="interaction-buttons">
+                                    <span><i class="uil uil-heart"></i></span>
+                                    <span><i class="uil uil-comment-dots"></i></span>
+                                    <span><i class="uil uil-share-alt"></i></span>
+                                </div>
+                                <div class="bookmark">
+                                    <span><i class="uil uil-bookmark"></i></span>
+                                </div>
+                            </div>
+                            <div class="liked-by">
+                                <span><img src="./images/profile-10.jpg" alt=""></span>
+                                <span><img src="./images/profile-11.jpg" alt=""></span>
+                                <span><img src="./images/profile-12.jpg" alt=""></span>
+                                <p>Liked by<b>Saul Mwegyesa</b></p>
+                            </div>
+                            <div class="caption">
+                                <p><b>Prossy</b><span class="harsh-tag"> #chilling</span></p>
+                            </div>
+                        </div>
+<!--================================= END OF FEED 2 ====================================================================================-->
+<!--================================== FEED 3 ===========================================-->
+                        <div class="feed">
+                            <div class="head">
+                                <div class="user">
+                                    <div class="profile-photo">
+                                        <img src="./images/profile-13.jpg" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h3>Mwegyesa Saul</h3>
+                                        <small>Kampala, 20 MINUTES ago</small>
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <span class="edit"><i class="uil uil-ellipsis-h"></i></span>
+
+                            <div class="photo">
+                                <img src="./images/saul.jpeg" alt="">
+                            </div>
+                            <div class="action-buttons">
+                                <div class="interaction-buttons">
+                                    <span><i class="uil uil-heart"></i></span>
+                                    <span><i class="uil uil-comment-dots"></i></span>
+                                    <span><i class="uil uil-share-alt"></i></span>
+                                </div>
+                                <div class="bookmark">
+                                    <span><i class="uil uil-bookmark"></i></span>
+                                </div>
+                            </div>
+                            <div class="liked-by">
+                                <span><img src="./images/profile-10.jpg" alt=""></span>
+                                <span><img src="./images/profile-11.jpg" alt=""></span>
+                                <span><img src="./images/profile-12.jpg" alt=""></span>
+                                <p>Liked by<b>Saul Mwegyesa</b></p>
+                            </div>
+                            <div class="caption">
+                                <p><b>Saul Mwegyesa</b><span class="harsh-tag"> #chilling</span></p>
+                            </div>
+                        </div>
+<!--================================= END OF FEED 3 ====================================================================================-->                       
+                        
+                    </div>
+<!---=============================== END OF FEEDS ===========================================-->
+                </div>
+<!---=============================================== END OF MIDDLE ============================================================================================--> 
+                <div class="right">
+                    <div class="messages">
+                        <div class="heading">
+                            <h4>Messages</h4><i class="uil uil-edit"></i>
+                        </div>
+                        <!-----------SEARCH BAR--------->
+                        <div class="search-bar">
+                            <div class="uil uil-search"></div>
+                            <input type="search" placeholder="Search messages" id="message-search">
+                        </div>
+
+                        <!---------------------------MESSAGES CATEGORY------------------------->
+                        <div class="category">
+                            <h6 class="active">Primary</h6>
+                            <h6>General</h6>
+                            <h6 class="message-requests">Requests(7)</h6>
+                        </div>
+
+                        <!----------------------------------- MESSAGE -------------------------------------------->
+                        <div class="statement">
+                            <h3>Personal Statement</h3>
+                            <p id="personalStatement">I am a strong, determined and hardworking man</p>
+                        </div>
+                        <div class="education-background">
+                            <div class="title">
+                                <h3>Education Background</h3>
+                            </div>
+                            <div class="content">
+                                <p><strong>Primary </strong><span id="primary">Hillside Primary School Naalya</span></p>
+                                <p><strong>Secondary </strong><span id="secondary">St.Mary's College</span></p>
+                                <p><strong>University </strong><span id="university">Makerere University</span></p>
+                            </div>
+                        </div>
+                        <div class="hobbies">
+                            <div class="title">                                
+                                <h3>Hobbies</h3>
+                            </div>
+                            <div class="content" id="hobbies-content">
+                                <span id="hobby1"></span>
+                                <span id="hobby2"></span></span>
+                                <span id="hobby3"></span></span>
+                                <span id="hobby4"></span></span>
+                                <span id="hobby5"></span></span>
+                                <span id="hobby6"></span></span>
+                                <span id="hobby7"></span></span>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+        </div>    
+    </main>
+<!--========================================== THEMES ==============================================-->
+    <div class="theme">
+        <div class="card">
+            <h1>Customize your view</h1>
+            <p class="text-muted">Manage your font size, color, and background</p>
+<!--================================================= FONT SIZES ===========================================================-->
+            <div class="font-size">                
+                <h4>Font Size</h4>
+                <div>
+                    <h6>Aa</h6>
+                    <div class="choose-size">
+                        <span class="font-size-1"></span>
+                        <span class="font-size-2"></span>
+                        <span class="font-size-3 active"></span>
+                        <span class="font-size-4"></span>
+                    </div>
+                    <h3>Aa</h3>
+                </div>
+            </div>
+<!---=========================================== COLORS =======================================================================================-->
+            <div class="color">
+                <h4>Color</h4>
+                <div class="choose-color">
+                    <span class="color-1 active"></span>
+                    <span class="color-2"></span>
+                    <span class="color-3 "></span>
+                    <span class="color-4"></span>
+                </div>
+            </div> 
+<!----=========================== BACKGROUND ==============================================================================-->
+            <div class="background">
+                <h4>Background</h4>
+                    <div class="choose-bg">
+                        <div class="bg-1 active">
+                            <span></span>
+                            <h5 for="bg-1">Light</h5>
+                        </div>
+                        <div class="bg-2">
+                            <span></span>
+                            <h5 for="bg-1">Dark Mode</h5>
+                        </div>                        
+                    </div>
+            </div>
+        </div>
+    </div>
+<!---==================================== PROFILE =======================================================================-->
+<div class="container1" id="myform">
+    <fieldset>
+    <h2>Profile</h2>
+    <form action="" method="GET">
+        <label class="container" id="circleImage" for="file"> 
+            <img src="./images/login.jpg" alt="" id="preview-img">
+        </label>
+        <input type="file" accept="image/*" name="image" id="file">
+    
+
+      <h4>Personal Statement</h4><textarea name="personal-statement" id="personal-statement" cols="30" rows="10"></textarea>
+      
+      <h4>Education Background</h4>
+      <div class="education">
+        <div class="education-group">
+          <label>Primary</label><input type="text" name="input" id="primary-input">
+        </div>
+        <div class="education-group">
+          <label>Secondary</label><input type="text" name="input" id="secondary-input">
+        </div>
+        <div class="education-group">
+          <label>University</label><input type="text" name="input" id="university-input">
+        </div>  
+      
+      </div>
+      
+      <h4>Hobbies</h4>
+      <div class="hobbies">
+        <div class="hobbies-group">
+          <label>Sports</label><input type ="checkbox" id="sports" value="sports">
+        </div>
+        <div class="hobbies-group">
+          <label>Music</label><input type="checkbox" id="music" value="music">
+        </div>
+        <div class="hobbies-group">
+          <label>Leadership</label><input type="checkbox" id="leadership" value="leadership">
+        </div>
+        <div class="hobbies-group">
+          <label>travel</label><input type="checkbox" id="travel" value="travel">
+        </div>
+        <div class="hobbies-group">
+          <label>Programming</label><input type="checkbox" id="programming" value="programming">
+        </div>
+        <div class="hobbies-group">
+          <label>Gaming</label><input type="checkbox" id="gaming" value="gaming">
+        </div>
+        <div class="hobbies-group">
+          <label>Cooking</label><input type="checkbox" id="cooking" value="cooking">
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+      </div>
+
+      <input class="btn btn-primary" type="submit" value="Submit" onclick="handleSubmit();" >
+      <button class="btn btn-primary" onclick="myFunction()">Delete</button>
+    </form>
+  </fieldset>
+</div>
+<script src="./script/script2.js" ></script>
+</body>
+</html>

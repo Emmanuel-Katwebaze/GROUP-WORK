@@ -218,80 +218,15 @@ document.querySelector('#file').addEventListener('change', function(){
     
   });
   
-/*   document.getElementById('sports').addEventListener('click', ()=>{
-        if (document.getElementById('sports').checked == true) {
-         const sports  = document.getElementById('sports').value;
-         sessionStorage.setItem("SPORTS", sports);
-        }else{
-          sessionStorage.removeItem("SPORTS", sports);
-        }
-      });
-  document.getElementById('music').addEventListener('click', ()=>{
-    if (document.getElementById('music').checked == true) {
-      const music  = document.getElementById('music').value;
-      sessionStorage.setItem("MUSIC", music);
-    }else{
-      sessionStorage.removeItem("MUSIC", music);
-    }
-  });
-  
-  document.getElementById('leadership').addEventListener('click', ()=>{
-        if (document.getElementById('leadership').checked == true) {
-          const leadership  = document.getElementById('leadership').value;
-          sessionStorage.setItem("LEADERSHIP", leadership);
-        }else{
-          sessionStorage.removeItem("LEADERSHIP", leadership);
-        }
-      });
-  
-      document.getElementById('travel').addEventListener('click', ()=>{
-        if (document.getElementById('travel').checked == true) {
-          const travel  = document.getElementById('travel').value;
-          sessionStorage.setItem("TRAVEL", travel);
-        }else{
-          sessionStorage.removeItem("TRAVEL", travel);
-        }
-      });
-  
-      document.getElementById('programming').addEventListener('click', ()=>{
-        if (document.getElementById('programming').checked == true) {
-          const programming  = document.getElementById('programming').value;
-         sessionStorage.setItem("PROGRAMMING", programming);
-        }else{
-          sessionStorage.removeItem("PROGRAMMING", programming);
-        }
-      });
-  
-      document.getElementById('gaming').addEventListener('click', ()=>{
-        if (document.getElementById('gaming').checked == true) {
-          const gaming  = document.getElementById('gaming').value;
-          sessionStorage.setItem("GAMING", gaming);
-        }else{
-          sessionStorage.removeItem("GAMING", gaming);
-        }
-      });
-  
-      document.getElementById('cooking').addEventListener('click', ()=>{
-        if (document.getElementById('cooking').checked == true) {
-          const cooking  = document.getElementById('cooking').value;
-         sessionStorage.setItem("COOKING", cooking);
-        }else{
-          sessionStorage.removeItem("COOKING", cooking);
-        }
-      });   */
+
       
       
      function handleSubmit(){
-        /* const username  = document.getElementById('username').value;
-        const email  = document.getElementById('email').value; */
       const primary  = document.getElementById('primary-input').value;
       const secondary  = document.getElementById('secondary-input').value;
       const university  = document.getElementById('university-input').value;
       const personalStatement  = document.getElementById('personal-statement').value;
 
-  
-     /*  sessionStorage.setItem("USERNAME", username);
-      sessionStorage.setItem("EMAIL", email);  */       
       sessionStorage.setItem("PRIMARY", primary);
       sessionStorage.setItem("SECONDARY", secondary);
       sessionStorage.setItem("UNIVERSITY", university);

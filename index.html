@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title> login page</title>
+    <link rel="stylesheet" type="text/css" href="./styles/styles1.css"/>  
+</head>
+<body>
+  <div class="container">
+    <div class="login"> 
+      <div class="profile-img">
+        <img src="./images/login.jpg" class="photo" alt="User login icon">
+      </div>
+      <div class="form">
+        <div class="title">
+          <h1>LOGIN HERE</h1>
+        </div>
+        <div class="content">
+          <form action="./main.html" method="GET">            
+            <div>
+              <label>Username </label>
+              <input type="text" name="username" id="username" placeholder="Enter Username" required>
+            </div>
+            <div>
+              <label>Email </label>
+              <input type="email" name="email" id="email" placeholder="Enter Email" required>
+            </div>
+            <div>
+              <label>Phone Number </label>
+              <input type="text" name="phone_number" placeholder="Enter Phone Number" required>
+            </div>
+            <div>
+              <label>Password </label>
+              <input type="password" name="password1" placeholder="Enter Password" required id="pass1">
+            </div>              
+            <div>
+              <label>Confirm Password </label>
+              <input type="password" name="password2" placeholder="Enter Password" required id="pass2" onblur="validatePassword();">
+            </div>
+              
+            <input class="btn btn-primary" type="submit" value="login" onclick="handleSubmit();">
+          </form>
+        </div>
+      </div>     
+    </div>
+  </div>
+<script src="script/script1.js"></script>
+</body>
+</html>
